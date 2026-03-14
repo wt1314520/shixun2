@@ -3,7 +3,6 @@
 // Created: 何家欢      2026-03-14 20:42:01
 // Description:
 //
-module;
 #include <iostream>
 #include <string>
 export module registrar:applogic.secretarycontroller;

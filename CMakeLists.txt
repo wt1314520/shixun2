@@ -15,6 +15,7 @@ add_executable(shixun2
 
 
 
+
 )
 
 set(MODULE_INTERFACE_FILES
@@ -28,7 +29,9 @@ set(MODULE_INTERFACE_FILES
     studentcontroller.cppm
     secretarycontroller.cppm
     relationalbroker.cppm
-    studentbroker.cppm#模块接口单元
+    studentbroker.cppm
+    teacherbroker.cppm
+    coursebroker.cppm#模块接口单元
 )
 
 source_group("Module Interfaces" FILES ${MODULE_INTERFACE_FILES})

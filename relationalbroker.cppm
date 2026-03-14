@@ -3,7 +3,6 @@
 // Created: 何家欢      2026-03-14 20:41:14
 // Description:
 //
-module;
 #include <pqxx/pqxx>
 #include <memory>
 #include <string>

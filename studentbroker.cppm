@@ -3,7 +3,6 @@
 // Created: 何家欢      2026-03-14 20:45:17
 // Description:
 //
-module;
 #include "relationalbroker.cppm"  // 注意：实际模块导入应使用 import，但为简化此处用 #include
 #include <memory>
 #include <string>
