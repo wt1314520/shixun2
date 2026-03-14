@@ -13,6 +13,8 @@ add_executable(shixun2
     main.cpp
 
 
+
+
 )
 
 set(MODULE_INTERFACE_FILES
@@ -21,7 +23,12 @@ set(MODULE_INTERFACE_FILES
     student.cppm
     teacher.cppm
     course.cppm
-    selection.cppm# 模块接口单元
+    selection.cppm
+    teachercontroller.cppm
+    studentcontroller.cppm
+    secretarycontroller.cppm
+    relationalbroker.cppm
+    studentbroker.cppm#模块接口单元
 )
 
 source_group("Module Interfaces" FILES ${MODULE_INTERFACE_FILES})
