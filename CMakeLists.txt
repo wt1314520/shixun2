@@ -11,8 +11,7 @@ project(shixun2 LANGUAGES CXX)
 add_executable(shixun2
     #math.cpp                              # 模块实现单元
     main.cpp
-    course.cppm
-    selection.cppm
+
 
 )
 
@@ -20,7 +19,9 @@ set(MODULE_INTERFACE_FILES
     #${MODULE_LIB_DIR1}/utils.cppm         #添加模块库的模块接口单元
     #math.cppm
     student.cppm
-    teacher.cppm# 模块接口单元
+    teacher.cppm
+    course.cppm
+    selection.cppm# 模块接口单元
 )
 
 source_group("Module Interfaces" FILES ${MODULE_INTERFACE_FILES})
